@@ -123,17 +123,17 @@
 // // 8. Write an ES6 function to return the second element of the given array by multiplying 20 to it.
 
 // const printSecondCharacter = (items) => items.slice(1, 2) * 20;
-const printSecondCharacter = (items) => {
-  let sum = 0;
-  for(let i = 0; i < items.length ; i++) {
-    if(i === 1) {
-      sum = items[i] * 20;
-    }
-  }
-  return sum;
-}
+// const printSecondCharacter = (items) => {
+//   let sum = 0;
+//   for(let i = 0; i < items.length ; i++) {
+//     if(i === 1) {
+//       sum = items[i] * 20;
+//     }
+//   }
+//   return sum;
+// }
 
-console.log(printSecondCharacter([1, 4, 2, 3, 5, 8]));
+// console.log(printSecondCharacter([1, 4, 2, 3, 5, 8]));
 // // 9. Write an ES6 function to return the second element of the given array by adding “Hello” before it.
 
 // const sayHello = (items) => `Hello ${items.slice(1, 2)}`;
